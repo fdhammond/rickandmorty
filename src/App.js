@@ -46,7 +46,8 @@ useEffect(() => {
             <Home />
           </Route>
           <Route path="/characters" exact>
-            <Characters />
+          {characters.length > 0 &&
+        characters.map((character) => <Characters key={character.id} {...character} />)}
           </Route>
         </Switch>
       </Router>
