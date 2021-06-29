@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.search-movie {
+.home-nav {
   background-color: #83FF61;
   padding: 1rem;
   display: flex;
@@ -43,7 +43,7 @@ code {
   color: white;
 }
 
-.home-container img {
+ .home-container img {
   background-position: center;
   background-repeat: no-repeat;
   background-position: fixed;
